@@ -1,0 +1,42 @@
+@mixin location_inst {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 82px;
+    border: 2px solid gray;
+    width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+}
+@mixin grid {
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 180px 180px 180px;
+    gap: 50px;
+    row-gap: 150px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+@mixin input_name {
+    width: 540px;
+    height: 60px;
+    background-color: black;
+    margin-left: 400px;
+    color: white;
+    font-size: 20px;
+}
+@mixin button {
+    background-color: #E7490F;
+    width: 400px;
+    height: 50px;
+    color: white;
+    border-color: #E7490F;
+    font-size: 18px;
+}
+@mixin text_p {
+    color: #E7490F;
+    font-size: 18px;
+}
