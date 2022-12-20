@@ -2,7 +2,7 @@
 @import "./colors";
 @font-face {
     font-family: lato;
-    src: url(../fonts/Lato/Lato-Black.ttf);
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Italic.ttf);
 }
 body {
   position: relative;
@@ -363,10 +363,10 @@ z-index: 1;
 }
 .input_number {
   position: absolute;
-  width: 490px;
+  width: 540px;
   height: 60px;
   background-color: black;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 350px;
   color: white;
   font-size: 20px;
@@ -494,15 +494,26 @@ margin-top: 90px;
   color: #5e5d5d;
   margin-left: 30px;
 }
-@media screen and (max-width: 1200px) {
+.cil {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
    header {
 width: 100%;
+   }
+   .input_number {
+    padding-left: 0;
    }
 }
 @media screen and (max-width: 960px) {
    header {
     width: 100%;
    }
+   .input_number {
+    margin-left: 0;
+   }  
    .main_img {
     position: relative;
    }
@@ -628,7 +639,7 @@ width: 300px;
   margin-left: 10px;
 }
 .input_number {
-  margin-left: 60px;
+  margin-left: 10px;
 }
 .registration_button {
   margin-left: 10px;
@@ -658,6 +669,9 @@ footer {
 }
 }
 @media screen and (max-width: 700px) {
+  .input_number {
+    margin-left: 10px;
+   }  
     .header_location {
         margin-left: 0;
       display: none;
@@ -854,6 +868,7 @@ margin-left: 50px;
     }
 }
 @media screen and (max-width: 430px) {
+  
   header {
     width: 430px;
     height: 850px;
@@ -940,7 +955,7 @@ section {
   margin-top: 50px;
 }
 .input_number {
-  width: 300px;
+  width: 350px;
 }
 .registration_button {
   width: 350px;
