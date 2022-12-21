@@ -3,6 +3,10 @@
   font-family: lato;
   src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Italic.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -911,7 +915,7 @@ footer {
     width: 400px;
   }
   .input_number {
-    width: 350px;
+    width: 400px;
   }
   .registration_button {
     width: 400px;
